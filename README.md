@@ -6,8 +6,13 @@ https://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/r
 
 System design is a very broad topic. Even a software engineer with many years of working experience at a top IT company may not be an expert on system design. If you want to become an expert, you need to read many books, articles, and solve real large scale system design problems.
 
+## SOME TIPS
+1. you should always be confident in saying, “While I’ve never used technology X, I know it’s a common solution to problem Y.”
 This repository only teaches you how to handle the system design interview with a systematic approach in a short time. You can dive into each topic if you have time. Of course, welcome to add your thoughts!
-
+2. Actual experience with a wide range of tools and systems is an advantage, but being able to identify a need and suggest a standard solution for it would get you a long way, even if you’ve never used it yourself.
+3. Consider it an opportunity to work with your interviewer, just as two team members would, to solve a real problem related to the company’s goals.
+4. Your final design is less important than the thought process behind your design choices
+5. you must familiarize yourself with the topics that system design interview questions might involve and how to approach them.
 ## <a name='toc'>Table of Contents</a>
 - [ ] [System Design Interview Tips](#tips)
 - [ ] [Basic Knowledge about System Design](#intro)
