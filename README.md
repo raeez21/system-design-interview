@@ -13,6 +13,26 @@ This repository only teaches you how to handle the system design interview with 
 3. Consider it an opportunity to work with your interviewer, just as two team members would, to solve a real problem related to the company’s goals.
 4. Your final design is less important than the thought process behind your design choices
 5. you must familiarize yourself with the topics that system design interview questions might involve and how to approach them.
+
+## A Step-by-Step Approach to Acing your System Design Interview
+1. Understand the Goals - ensure you understand the basic requirements and ask clarification questions.
+    1. What is the goal of the system?
+    2. Who are the users of the system? What do they need it for? How are they going to use it?
+    3. What are the inputs and outputs of the system?
+2. Establish the Scope - Try to define all the features and all the components you think of in order of importance to the user. Ask clarifying questions, such as:
+   1. Do we want to discuss the end-to-end experience or just the API?
+   2. What clients do we like to support (mobile, web, etc.)?
+   3. Do we require authentication? Analytics? Integrating with existing systems?
+3. Design for the Right Scale - The same feature set requires a very different approach for different scales.
+   1. What is the expected read-to-write ratio?
+   2. How many concurrent requests should we expect?
+   3. What’s the average expected response time?
+   4. What’s the limit of the data we allow users to provide?
+4.  Start High-Level, then Drill-Down - Start with covering the end-to-end process based on the goals you’ve established. start simple and iterate.
+5.  Data Structures and Algorithms (DS&A)
+6.  Tradeoffs - When it comes to system design interviews, almost every decision you’ll need to make will involve a tradeoff. Being able to describe them in real-time, as you’re suggesting solutions, shows that you understand that complex systems often require compromises and allow you to demonstrate your knowledge regarding the pros and cons of different approaches
+
+Link to the medium article [https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26](https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26)
 ## <a name='toc'>Table of Contents</a>
 - [ ] [System Design Interview Tips](#tips)
 - [ ] [Basic Knowledge about System Design](#intro)
